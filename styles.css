@@ -1,0 +1,97 @@
+body {
+    background-image: url('nature.jpeg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.title {
+    text-align: center;
+    color: #00008B;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.calci {
+    width: 80%;
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #6495ED;
+    padding: 20px;
+    font-weight: bold;
+    border: 5px solid #00008B;
+    border-radius: 12px;
+    height: auto;
+    max-height: 80vh; /* Set the maximum height of the calculator container */
+    overflow-y: auto;
+}
+
+.text {
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+.input-field {
+    width: 100%;
+    margin-top: 5px;
+    padding: 6px 15px;
+    border: 3px solid black;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#gender-selection {
+    margin-top: 10px;
+}
+
+.gender-radio {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 7px 12px;
+    font-weight: bold;
+    background-color: #00008B;
+    color: white;
+    margin-top: 1%;
+    margin-right: 3%;
+    border: 3px solid white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.reset-btn {
+    background-color: #FF6347;
+}
+
+#res {
+    color: black;
+    margin-top: 15px;
+    border: 0px;
+    border-radius: 0px;
+    font-weight: bold;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+.qwe {
+    width: 100%;
+    text-align: center;
+}
+
+#indicator {
+    margin-left: 2%;
+}
+
+#image {
+    height: 40px;
+    margin-top: 10px;
+    visibility: hidden;
+}
